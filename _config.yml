@@ -5,13 +5,12 @@ relative_permalinks: true
 # Setup
 title:            Luca Marchi
 url:              http://lucamarchi.me
+paginate:         3
 baseurl:          /
 author:
   name:           Mark Otto
   url:            https://twitter.com/mdo
   email:          markdotto@gmail.com
-
-paginate:         3
 
 # Custom vars
 version:          1.0.0
