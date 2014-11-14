@@ -2,7 +2,6 @@
 <html lang="en">
 
   {% include head.html %}
-  {% include comments.html %}
   <body>
 
     <div class="container content">
@@ -16,9 +15,8 @@
         </h3>
       </header>
 
-      <main>
         {{ content }}
-      </main>
+        {% include comments.html %}
 
       <footer class="footer">
         <small>
