@@ -3,7 +3,7 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
+title:            Luca Marchi
 tagline:          The Jekyll Butler
 url:              http://getpoole.com
 paginate:         3
@@ -17,3 +17,9 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/poole/poole
+
+# Pages list
+pages_list:
+  About:  '/about'
+  Archive:  '/archive'
+  Feed:     '/atom.xml'
